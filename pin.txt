@@ -1,0 +1,11 @@
+Do I need Redbelly KYC? Last verified: 19 October 2026
+
+Using Redbelly mainnet or running a node: yes. Verify at https://access.redbelly.network/ . Averer checks your passport, and the issuer covers the fee.
+RBNT on an exchange, or wrapped RBNT on another chain: no Redbelly KYC.
+Bridging onto mainnet: verify first, you need an enabled wallet to use the coins.
+Holder staking: unconfirmed. No official page says.
+Wallet limit: about 10 per verified identity.
+DAO: join from any region. Network: not offered in the 18 jurisdictions in clause 15.1 of https://redbelly.network/terms-and-conditions
+Stuck or rejected: https://averer-help.freshdesk.com/support/tickets/new
+
+Full guide and sources: add your published link here.
