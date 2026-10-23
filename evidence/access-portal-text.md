@@ -1,11 +1,18 @@
 # Redbelly Access portal: on-screen text (evidence)
 
 Source: the Redbelly Access portal's own JavaScript, https://access.redbelly.network/
-Read by: pankajcodin, from the portal's public JS bundle, on 23 October 2026.
-Screenshots: `evidence/e1-wallet-limit.png`, `evidence/e2-approval-time.png`
+Read by: pankajcodin, from the portal's public JS, on 23 October 2026.
 
-File name: `index-25986869981a8ae9.js` (saved in this folder)
+| Entry | Where the text was read |
+|---|---|
+| E1 wallet limit | `index-25986869981a8ae9.js` (saved in this folder) and screenshot `e1-wallet-limit.png` |
+| E2 verification messages | Screenshot `e2-approval-time.png` of the portal's code. This text is in a different JS file from the saved bundle. The file name is not recorded in the screenshot. |
+| E3 button and screen labels | `index-25986869981a8ae9.js` (saved in this folder) |
+
+Saved bundle: `index-25986869981a8ae9.js`
 SHA-256: `4a128d38b556eeae044f703b1aba895f9ec7fa3d7872020c2d6038718d7db357`
+
+Check it yourself: search the saved bundle for "Account allocation exhausted" (E1) and for the E3 labels. Search the portal's other JS files for "few minutes but in some (rare) cases" to find the E2 text.
 
 ## E1. Wallet limit
 

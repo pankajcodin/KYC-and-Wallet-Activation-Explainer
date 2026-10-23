@@ -18,7 +18,7 @@ The DAO and the network have different regional rules. The DAO is open to every 
 
 ## Part A: Do I need KYC?
 
-How to read the answers: Needed an official source says so. Not needed no page says it in those words, but it follows from an official rule that is named. Unconfirmed no official page settles it.
+How to read the answers: Needed means an official source says so. Not needed means no page says it in those words, but it follows from an official rule that is named. Unconfirmed means no official page settles it.
 
 | Your situation | Redbelly KYC | Reason |
 |---|---|---|
@@ -48,7 +48,7 @@ Up to 10 wallets per verified identity. At 10 the portal shows "Account allocati
 
 After your first account is enabled, the portal lets you connect more accounts to the same identity, with a "Link another wallet" option [E1]. The portal compares your linked accounts with 10. When you reach 10, the Add another account button is no longer shown and the portal shows the message "Account allocation exhausted." [E1]
 
-The limit is set by the Redbelly Access portal itself. No official page describes a way past it, so use one of the wallets you already have. Averer's help centre does not publish a number [S16].
+The limit is set by the Redbelly Access portal itself. No official page describes a way past it, so use one of the wallets you already have.
 
 
 ### 3. How long does approval take?
@@ -57,7 +57,7 @@ Usually a few minutes. In rare cases, a few days.
 
 That is the portal's own wording while your verification is pending: "This could take a few minutes but in some (rare) cases it could take a few days. Please check again soon." [E2] If it is still pending after a few days, open a ticket with Averer (Part D).
 
-For context, not as a promise: in January 2025 Redbelly said Averer had over 1.1 million sign up requests in two weeks, and over 20 thousand tickets for incomplete documents [S5]. That was a peak. Send complete, readable documents the first time.
+For context, not as a promise: in January 2025 Redbelly said Averer had over 1.1 million sign-up requests in two weeks, and over 20 thousand tickets for incomplete documents [S5]. That was a peak. Send complete, readable documents the first time.
 
 
 ### 4. Can I join from my country?
@@ -139,7 +139,7 @@ The portal also offers a Testnet account once your first account is enabled [S2]
 5. You can link up to 10 wallets in total (question 2).
 Safety
 
-Never type your seed phrase or private key anywhere. Redbelly states that it will never intentionally gain access to or store private wallet keys [S3]. Averer's documentation says its design uses zero knowledge proofs, so proof is shown without revealing the credential itself [S10].
+Never type your seed phrase or private key anywhere. Redbelly states that it will never intentionally gain access to or store private wallet keys [S3]. Averer's documentation says its design uses zero-knowledge proofs, so proof is shown without revealing the credential itself [S10].
 
 
 ## Part D: When something goes wrong

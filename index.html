@@ -106,7 +106,7 @@ footer{margin:72px auto 48px;color:var(--on-surface-variant);font-size:.9rem;bor
 <p>The DAO and the network have different regional rules. The DAO is open to every region <a class="ref" href="#s9">[S9]</a>. The network is not offered in the 18 jurisdictions in clause 15.1 of its terms <a class="ref" href="#s3">[S3]</a>.</p>
 
 <h2 id="a">Part A: Do I need KYC?</h2>
-<p>How to read the answers: <span class="badge need">Needed</span> an official source says so. <span class="badge no">Not needed</span> no page says it in those words, but it follows from an official rule that is named. <span class="badge unc">Unconfirmed</span> no official page settles it.</p>
+<p>How to read the answers: <span class="badge need">Needed</span> means an official source says so. <span class="badge no">Not needed</span> means no page says it in those words, but it follows from an official rule that is named. <span class="badge unc">Unconfirmed</span> means no official page settles it.</p>
 <div class="tw"><table>
 <tr><th>Your situation</th><th>Redbelly KYC</th><th>Reason</th></tr>
 <tr><td>I use Redbelly mainnet (send, swap, use apps)</td><td><span class="badge need">Needed</span></td><td>Every user must claim an access credential before the account gets write access <a class="ref" href="#s12">[S12]</a>.</td></tr>
@@ -127,12 +127,12 @@ footer{margin:72px auto 48px;color:var(--on-surface-variant);font-size:.9rem;bor
 <h3 id="q2">2. How many wallets can one verified identity cover?</h3>
 <div class="card"><p class="answer">Up to <span class="mono">10</span> wallets per verified identity. At <span class="mono">10</span> the portal shows "Account allocation exhausted."</p>
 <p>After your first account is enabled, the portal lets you connect more accounts to the same identity, with a "Link another wallet" option <a class="ref" href="#e1">[E1]</a>. The portal compares your linked accounts with 10. When you reach 10, the Add another account button is no longer shown and the portal shows the message "Account allocation exhausted." <a class="ref" href="#e1">[E1]</a></p>
-<p>The limit is set by the Redbelly Access portal itself. No official page describes a way past it, so use one of the wallets you already have. Averer's help centre does not publish a number <a class="ref" href="#s16">[S16]</a>.</p></div>
+<p>The limit is set by the Redbelly Access portal itself. No official page describes a way past it, so use one of the wallets you already have.</p></div>
 
 <h3 id="q3">3. How long does approval take?</h3>
 <div class="card"><p class="answer">Usually a few minutes. In rare cases, a few days.</p>
 <p>That is the portal's own wording while your verification is pending: "This could take a few minutes but in some (rare) cases it could take a few days. Please check again soon." <a class="ref" href="#e2">[E2]</a> If it is still pending after a few days, open a ticket with Averer (Part D).</p>
-<p>For context, not as a promise: in January 2025 Redbelly said Averer had over 1.1 million sign up requests in two weeks, and over 20 thousand tickets for incomplete documents <a class="ref" href="#s5">[S5]</a>. That was a peak. Send complete, readable documents the first time.</p></div>
+<p>For context, not as a promise: in January 2025 Redbelly said Averer had over 1.1 million sign-up requests in two weeks, and over 20 thousand tickets for incomplete documents <a class="ref" href="#s5">[S5]</a>. That was a peak. Send complete, readable documents the first time.</p></div>
 
 <h3 id="q4">4. Can I join from my country?</h3>
 <p class="answer">You can join the DAO from any region. The network is not offered in 18 listed jurisdictions. These are two separate rules.</p>
@@ -179,7 +179,7 @@ footer{margin:72px auto 48px;color:var(--on-surface-variant);font-size:.9rem;bor
 <li>In the Accounts section, press Add another account to add an account of the same wallet, or press Link another wallet for a different wallet <a class="ref" href="#e1">[E1]</a> <a class="ref" href="#e3">[E3]</a>.</li><li>For Link another wallet, use the wallet widget in the top right corner of the portal to connect the additional wallet. By linking it, you become accountable for all the actions taken by that wallet on the network <a class="ref" href="#e3">[E3]</a>.</li>
 <li>Press Enable account for the new wallet. Each new wallet must be enabled before it can send transactions <a class="ref" href="#s12">[S12]</a>.</li>
 <li>You can link up to <span class="mono">10</span> wallets in total (question 2).</li></ol>
-<div class="card safe"><p class="answer">Safety</p><p>Never type your seed phrase or private key anywhere. Redbelly states that it will never intentionally gain access to or store private wallet keys <a class="ref" href="#s3">[S3]</a>. Averer's documentation says its design uses zero knowledge proofs, so proof is shown without revealing the credential itself <a class="ref" href="#s10">[S10]</a>.</p></div>
+<div class="card safe"><p class="answer">Safety</p><p>Never type your seed phrase or private key anywhere. Redbelly states that it will never intentionally gain access to or store private wallet keys <a class="ref" href="#s3">[S3]</a>. Averer's documentation says its design uses zero-knowledge proofs, so proof is shown without revealing the credential itself <a class="ref" href="#s10">[S10]</a>.</p></div>
 
 <h2 id="d">Part D: When something goes wrong</h2>
 <p>The portal sends identity problems to Averer <a class="ref" href="#s2">[S2]</a>.</p>
@@ -215,12 +215,12 @@ footer{margin:72px auto 48px;color:var(--on-surface-variant);font-size:.9rem;bor
 <tr id="s2"><td class="mono">S2</td><td>Official</td><td>Portal FAQ: Averer is the issuer, fees covered, supported wallets, add accounts, Testnet, identity problems go to Averer</td><td><a href="https://access.redbelly.network/">access.redbelly.network</a></td></tr>
 <tr id="s3"><td class="mono">S3</td><td>Official</td><td>Terms: clause 15.1 jurisdictions, 15.2 residents, 1.3 private keys</td><td><a href="https://redbelly.network/terms-and-conditions">redbelly.network/terms-and-conditions</a></td></tr>
 <tr id="s4"><td class="mono">S4</td><td>Official</td><td>Individual onboarding: wallet authentication, KYC, on-chain permission</td><td><a href="https://docs.redbelly.network/pages/eligibility-sdk/onboarding/individual/overview/">docs.redbelly.network</a></td></tr>
-<tr id="s5"><td class="mono">S5</td><td>Official</td><td>3 January 2025 post: 1.1 million sign ups, 20 thousand tickets</td><td><a href="https://x.com/RedbellyNetwork/status/1875013929019314508">x.com/RedbellyNetwork</a></td></tr>
+<tr id="s5"><td class="mono">S5</td><td>Official</td><td>3 January 2025 post: 1.1 million sign-ups, 20 thousand tickets</td><td><a href="https://x.com/RedbellyNetwork/status/1875013929019314508">x.com/RedbellyNetwork</a></td></tr>
 <tr id="s6"><td class="mono">S6</td><td>Official</td><td>Node operators need network access for 2 accounts</td><td><a href="https://vine.redbelly.network/nodes/operator-guide/">vine.redbelly.network/nodes/operator-guide</a></td></tr>
 <tr id="s7"><td class="mono">S7</td><td>Official</td><td>100,000 RBNT stake, slashing, deposit on mainnet</td><td><a href="https://vine.redbelly.network/nds-staking">vine.redbelly.network/nds-staking</a></td></tr>
 <tr id="s8"><td class="mono">S8</td><td>Official</td><td>Roadmap lists delegated staking</td><td><a href="https://redbelly.network/">redbelly.network</a></td></tr>
 <tr id="s9"><td class="mono">S9</td><td>Official</td><td>DAO vote closed 5 July 2026: proposal to remove geographic restrictions for General DAO Members and keep them for High Council and leadership. For 8,514,893, Against 5,983,785, Abstain 1,340,338. Saved in evidence/snapshot-dao-geographic-proposal.json</td><td><a href="https://snapshot.box/#/s:rbnt.eth/proposal/0xa57ccc9a6d554c9e5a1b1ca429ad2affc2e9058f12ea50bce999460f2aea4e02">Snapshot proposal</a></td></tr>
-<tr id="s10"><td class="mono">S10</td><td>Official</td><td>Averer documentation, zero knowledge proofs</td><td><a href="https://docs.averer.co/">docs.averer.co</a></td></tr>
+<tr id="s10"><td class="mono">S10</td><td>Official</td><td>Averer documentation, zero-knowledge proofs</td><td><a href="https://docs.averer.co/">docs.averer.co</a></td></tr>
 <tr id="s11"><td class="mono">S11</td><td>Official</td><td>Brand kit used for this page</td><td><a href="https://taskboard.redbellydao.network/brand">taskboard.redbellydao.network/brand</a></td></tr>
 <tr id="s12"><td class="mono">S12</td><td>Official</td><td>User access: credential, passport, biometric check, enable write access</td><td><a href="https://vine.redbelly.network/identity/user-access/">vine.redbelly.network/identity/user-access</a></td></tr>
 <tr id="s13"><td class="mono">S13</td><td>Official</td><td>Native currency: Gate and MEXC, bridging with Lucid Labs</td><td><a href="https://vine.redbelly.network/native-currency/">vine.redbelly.network/native-currency</a></td></tr>
@@ -229,7 +229,7 @@ footer{margin:72px auto 48px;color:var(--on-surface-variant);font-size:.9rem;bor
 <tr id="s16"><td class="mono">S16</td><td>Official</td><td>Averer ticket form fields, wallet address required (screenshot in evidence/averer-ticket-form.png, read 23 October 2026)</td><td><a href="https://averer-help.freshdesk.com/support/tickets/new">averer-help.freshdesk.com/support/tickets/new</a></td></tr>
 <tr id="e1"><td class="mono">E1</td><td>Official, portal code</td><td>Wallet limit of 10, "Account allocation exhausted.", "Link another wallet"</td><td><a href="evidence/access-portal-text.md">evidence/access-portal-text.md</a></td></tr>
 <tr id="e2"><td class="mono">E2</td><td>Official, portal code</td><td>Pending, failed and retry messages, including the approval time</td><td><a href="evidence/access-portal-text.md">evidence/access-portal-text.md</a></td></tr>
-<tr id="e3"><td class="mono">E3</td><td>Official, portal screens</td><td>Button and screen labels in Part C, read in the portal code</td><td><a href="evidence/access-portal-text.md">evidence/access-portal-text.md</a></td></tr>
+<tr id="e3"><td class="mono">E3</td><td>Official, portal code</td><td>Button and screen labels in Part C, read in the portal code</td><td><a href="evidence/access-portal-text.md">evidence/access-portal-text.md</a></td></tr>
 </table></div>
 
 <h2 id="pin">Pin version</h2>
