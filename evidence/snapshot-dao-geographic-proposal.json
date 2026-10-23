@@ -1,0 +1,32 @@
+{
+  "source": "https://snapshot.box/#/s:rbnt.eth/proposal/0xa57ccc9a6d554c9e5a1b1ca429ad2affc2e9058f12ea50bce999460f2aea4e02",
+  "space": "rbnt.eth",
+  "proposal_id": "0xa57ccc9a6d554c9e5a1b1ca429ad2affc2e9058f12ea50bce999460f2aea4e02",
+  "governance_site_link": "https://redbelly-governance.vercel.app/proposal/9e19c1c0-e981-4f8a-8d8a-0c8be619a36f",
+  "title": "Increase Governance Accessibility and Protect Contributor Privacy",
+  "heading": "Remove Voting Whitelist Requirement and Remove Geographic Restrictions for General DAO Members",
+  "submitted_by": "@rainbowmagician1",
+  "closed": "2026-07-05",
+  "result": {
+    "for": 8514893,
+    "against": 5983785,
+    "abstain": 1340338,
+    "total_votes_computed": 15839016,
+    "for_exceeds_against": true
+  },
+  "treasury_funding_requested": {
+    "USDT": 0,
+    "RBNT": 0
+  },
+  "decision_requested": [
+    "Remove the whitelist requirement for DAO voting, where applicable within DAO operations.",
+    "Remove geographic restrictions for General DAO Members.",
+    "Retain all existing geographic limitations for High Council Members and General DAO Leadership.",
+    "Update the Constitution and related governance documents to reflect these changes.",
+    "Publish the revised governance documentation following the existing amendment process."
+  ],
+  "recorded_by": "pankajcodin",
+  "recorded_on": "2026-10-23",
+  "how_recorded": "Vote counts and closing date read on the Snapshot proposal page and copied here. Proposal text copied from the proposal page.",
+  "limits": "Shows the DAO approved the proposal. Does not show whether the Constitution and Handbook have been updated. The proposal changes the DAO membership rule only and does not mention Redbelly Network's terms, so clause 15 is not affected."
+}

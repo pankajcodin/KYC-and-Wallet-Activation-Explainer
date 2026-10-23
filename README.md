@@ -2,14 +2,12 @@
 
 A plain language guide to Redbelly KYC and wallet activation, written for the Redbelly DAO community. It answers the questions moderators get asked again and again, in one place, so people can link a single page.
 
-Last verified: 19 October 2026.
-
-![Decision guide: do I need Redbelly KYC](img/decision-guide.png)
+Last verified: 23 October 2026.
 
 ## Quick answer
 
 | Your situation | Redbelly KYC |
-| --- | --- |
+|---|---|
 | I use Redbelly mainnet | Needed |
 | I run a node and stake | Needed |
 | I bridge RBNT onto mainnet | Verify first, you need an enabled wallet to use the coins |
@@ -17,52 +15,40 @@ Last verified: 19 October 2026.
 | I hold wrapped RBNT on another chain | Not needed |
 | I am a holder who wants to stake | Unconfirmed, no official page says |
 
-Two regional rules exist and they are not the same thing:
-- **The DAO:** anyone can join from any region.
-- **The network:** Redbelly does not offer its services in the 18 jurisdictions listed in clause 15.1 of its [terms and conditions](https://redbelly.network/terms-and-conditions).
-
-## Who this is for
-
-- A new RBNT holder who is not sure whether they need KYC.
-- Someone holding wrapped RBNT on another chain.
-- Someone from a region the DAO used to exclude.
-- Someone whose verification is slow, rejected, or out of wallet slots.
+Approval usually takes a few minutes, in rare cases a few days. One verified identity can link up to 10 wallets. The DAO is open to every region, and the network is not offered in 18 listed jurisdictions. These are two separate rules.
 
 ## What is inside
 
 | File | What it is |
-| --- | --- |
-| `index.html` | The full guide as a web page, Parts A to D |
-| `GUIDE.md` | The same guide as Markdown |
-| `img/decision-guide.png` | The Part A decision guide. `img/decision-guide.svg` is the vector version |
-| `pin.txt` | The short version to pin in Discord or Telegram, posted with the image |
-| `SOURCES.md` | Every source, marked official or community reported |
+|---|---|
+| `index.html` | The full guide, Parts A to D. This is the single source |
+| `GUIDE.md`, `SOURCES.md`, `pin.txt` | Built from `index.html` by `scripts/build.py` |
+| `img/decision-guide.png` and `.svg` | The Part A decision guide as an image |
+| `evidence/` | Exact portal text from the portal code (E1, E2, E3), the saved bundle with its SHA-256, and screenshots |
+| `KYC-and-Wallet-Activation-Explainer.pdf` | The guide as a PDF, built by `scripts/make_pdf.py` |
+| `css/tokens.css` | Redbelly DAO brand tokens |
+| `DEPLOY.md` | How to deploy on Vercel and what to run before each push |
+| `scripts/check.py` | Checks dashes, emoji, source ids and that the pin matches the guide |
 
-The guide has four parts:
-1. **Part A:** do I need KYC, as a table you can read in seconds.
-2. **Part B:** the five common questions, each with a one line answer first.
-3. **Part C:** getting verified and activating a wallet, step by step, including how to add another wallet.
-4. **Part D:** when something goes wrong, including how to open an Averer support ticket.
+## Brand
 
-## How to read the answers
+Follows the Task Board brand kit at https://taskboard.redbellydao.network/brand: Be Vietnam Pro for text, JetBrains Mono only for machine values, the official colour tokens, the official logo, no em or en dashes, no emoji, and a dated last verified line.
 
-- **Needed:** an official source says so.
-- **Not needed:** no official page says it in those words, but it follows directly from an official rule. The rule is named in the guide.
-- **Unconfirmed:** no official page settles it. The reason is given.
+## How the facts were checked
 
-Every fact carries a source number such as `[S13]`. Facts from community posts are labelled community reported and unconfirmed.
+Official Redbelly and Averer pages, the Redbelly Access portal's own code (the wallet limit and the approval time message, saved in `evidence/`), the terms of service (clause 15 saved in `evidence/terms-clause-15.txt`), and the DAO vote on Snapshot.
 
 ## Known gaps
 
-These are marked as unconfirmed in the guide until an official page covers them:
-- The exact wallet limit per verified identity. The guide uses about 10, as stated in the DAO task brief.
-- A published approval time.
-- Any rule for ordinary holders who want to stake.
+- Rejection reasons and an appeal route are not published.
+- No official page covers staking for ordinary holders.
+- Whether a bridge can deliver to a wallet that is not yet enabled is not published.
 
-## Safety
+## Updating
 
-Use only the official portal at https://access.redbelly.network/. Never share your seed phrase or private key with anyone, including in a support ticket.
+```
+python3 scripts/build.py
+python3 scripts/check.py
+```
 
-## Keeping it current
-
-Redbelly and Averer change their process over time. If a step or a source no longer matches the live official page, open an issue or a pull request with the new official link.
+If a step or a source no longer matches the live official page, open an issue or a pull request with the new official link.

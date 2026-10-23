@@ -1,0 +1,30 @@
+Redbelly Network Terms and Conditions: clause 15 and related text
+Source: https://redbelly.network/terms-and-conditions
+Copied by pankajcodin on 23 October 2026 from the public terms page.
+
+Clause 15 heading: "Services not offered in certain jurisdictions"
+
+15.1  We do not offer our services and do not carry on business in the following jurisdictions:
+      Afghanistan; Central African Republic; Democratic People's Republic of Korea;
+      Democratic Republic of the Congo; Guinea-Bissau (the terms page spells it "Guinea-Bussau");
+      Iran; Iraq; Lebanon; Libya; Myanmar; Russia; Somalia; South Sudan; Sudan; Syria; Ukraine; Yemen; Zimbabwe.
+      That is 18 jurisdictions.
+
+15.2  Users that are tax residents or located at the jurisdictions mentioned in clause 15.1 are not
+      allowed to access or use the website, platform, and software suite and tools.
+
+15.3  The user represents and warrants that:
+      (a) they are not located in a country subject to a United States government embargo, or designated
+          by the United States government as a "terrorist supporting" country; and
+      (b) they are not listed on any United States government list of prohibited or restricted parties.
+
+15.4  If the user breaches clause 15, Redbelly may suspend or terminate access to the website and/or
+      platform without prior notice, and the user releases Redbelly from related claims.
+
+Related text used in the guide
+
+Clause 1.3 (private keys): by connecting a wallet, the user is responsible for the security of their
+account and wallet. Redbelly will never intentionally gain access to or store any private wallet keys.
+
+Definition of "Website" (clause 2): any website on the redbelly.network domain, including
+https://access.redbelly.network. So Redbelly Access is part of the Website covered by clause 15.2.
